@@ -32,8 +32,10 @@ Place this html piece where you want to display Autosave alerts(es: You have an 
 <div id="autosave-alert"></div>
 ```
 
+These functions should be implemented after the *autosave.js* is loaded:
+
 ```javascript
-function loadData_autosave(data){
+function loadData_autosave(){
 	
 	Autosave.saveBackup( "backup_identifier_key", dataObj);
 	
