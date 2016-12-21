@@ -18,7 +18,6 @@ To initialize AutosaveJs:
 ```javascript
 //Autosave:
 Autosave.init(dataObj);
-checkAutosave();
 setInterval( function(){  Autosave.save( dataObj ) }, 20*1000 ) //save our data every 20 sec 
 //END: Autosave
 ```
