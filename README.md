@@ -1,4 +1,4 @@
-# autosavejs
+# AutosaveJs
 Javascript library for autosave data in browser LocalStorage
 
 ### Usage example:
@@ -24,7 +24,7 @@ To initialize AutosaveJs:
 //Autosave:
 Autosave.init(Poll);
 checkAutosave();
-setInterval( function(){  Autosave.save( Poll ) }, 20*1000 )
+setInterval( function(){  Autosave.save( Poll ) }, 20*1000 ) //save our data every 20 sec 
 //END: Autosave
 ```
 ```javascript
